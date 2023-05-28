@@ -9,8 +9,8 @@ terraform {
 }
 provider "google" {
   project = "terraform-p-382808"
- # region = v
-  #zone = var.zone
+  region = "us-central1-a"
+  zone = "us-central1-a"
   credentials = "terra_key.json"
 }
 

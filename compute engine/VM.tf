@@ -9,7 +9,7 @@ resource "google_compute_instance" "webserver" {
       initialize_params {
         image = "debian-cloud/debian-11"
         labels = {
-            my_label = "Debian"
+            my_label = "debian"
         }
       }
     }
