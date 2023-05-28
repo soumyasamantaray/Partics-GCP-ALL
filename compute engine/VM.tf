@@ -1,5 +1,5 @@
 resource "google_compute_instance" "webserver" {
-    name = "webserver"
+    name = "webserver1"
     description = "this is 1st server"
     machine_type = "e2-medium"
     network_interface {
