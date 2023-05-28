@@ -5,7 +5,6 @@ resource "google_compute_instance" "webserver" {
     network_interface {
       network = "default"
     }
-    tags = "webserver"
     boot_disk {
       initialize_params {
         image = "debian-cloud/debian-11"

@@ -7,9 +7,11 @@ terraform {
     }
   }
 }
-
 provider "google" {
-  # Configuration options
+  project = "terraform-p-382808"
+ # region = v
+  #zone = var.zone
+  credentials = "terra_key.json"
 }
 
 
